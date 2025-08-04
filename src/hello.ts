@@ -1,3 +1,7 @@
-import { getAllNFLPlayers } from "./nfl/player";
+import { getAllActiveNFLPlayers } from "./nfl/player";
 
-console.log(getAllNFLPlayers());
+const hello = async () => { 
+    console.log(await getAllActiveNFLPlayers());
+}
+
+hello();
